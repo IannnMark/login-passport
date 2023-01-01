@@ -92,4 +92,15 @@ body {
     width: 50%;
    }
   
+
+   ul li a p:hover{
+    color: orangered;
+   }
  
+   ul li i:hover{
+    color: orangered;
+   }
+
+   ul li a:hover{
+    color: orangered;
+   }

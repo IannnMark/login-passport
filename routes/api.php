@@ -85,3 +85,10 @@ Route::delete('services/{id}', [ServiceController::class, 'destroy'])->name('ser
 // Route::middleware('auth:api')->group( function () {
 //     Route::resource('products', ProductController::class);
 // });
+
+
+
+Route::post('/product/checkout', [
+    'uses' => 'ProductController@postCheckout',
+    'as' => 'checkout'
+]);

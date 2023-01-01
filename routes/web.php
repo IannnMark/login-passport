@@ -46,7 +46,6 @@ Route::GET('signup-forms', [UserController::class, 'getForm'])->name('user.form'
 //route for message in registration
 Route::GET('confirmation-message', [UserController::class, 'getMessage'])->name('confirm.message');
 
-
-
+route::view('/shop', 'shop.index');
 
 
